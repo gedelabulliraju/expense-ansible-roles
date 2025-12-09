@@ -24,3 +24,14 @@ meta/main.yml --> you can keep role dependencies here
 lookup_plugins
 # Ansible Role: expense-ansible-roles
 This Ansible role sets up and configures expense management applications. 
+
+
+
+ansible.cfg
+
+/etc/ansible/ansible.cfg
+
+1. ANSIBLE_CONFIG
+2. CURRENT WORKING DIRECTORY
+3. HOME DIRECTORY
+4. etc forlder
