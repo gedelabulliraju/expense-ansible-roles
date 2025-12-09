@@ -31,7 +31,16 @@ ansible.cfg
 
 /etc/ansible/ansible.cfg
 
-1. ANSIBLE_CONFIG
+1. ANSIBLE_CONFIG (Environment variable if set)
+
+default- - - - - > > > /etc/ansible/ansible.cfg
+
+change ansible.cfg to desired location
+export ANSIBLE_CONFIG=/home/ec2-user/expense-ansible-roles/ansible.cfg
+echo $ANSIBLE_CONFIG
+unset ANSIBLE_CONFIG
+
+
 2. CURRENT WORKING DIRECTORY
 3. HOME DIRECTORY
 4. etc forlder
