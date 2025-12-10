@@ -1,2 +1,4 @@
 mysql_root_password: ExpenseApp@123
 login_host: mysql.buddymarket.shop
+app_location: /app
+component: backend
