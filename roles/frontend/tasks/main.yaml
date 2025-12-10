@@ -9,7 +9,7 @@
     enabled: yes
 - name: import roles form comman
   ansible.builtin.import_role:
-    name: command:
+    name: common
     tasks_from: app-pre-req.yaml
 
 - name: copy expense conf
