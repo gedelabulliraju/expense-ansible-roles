@@ -1,1 +1,3 @@
 backend_host: backend.buddymarket.shop
+app_location: /usr/share/nginx/html
+component: frontend
