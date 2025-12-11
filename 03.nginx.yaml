@@ -1,0 +1,15 @@
+- name: nginx install and run
+  hosts: all
+  become: yes
+  tasks:
+    - name: Install nginx in redhat based systems
+      yum:
+        name: nginx
+        state: present
+      when: ansible_os_family == "RedHat"
+    - name: run nginx in redhat based systems
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+      when: ansible_os_family == "RedHat"
