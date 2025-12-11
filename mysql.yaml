@@ -3,5 +3,6 @@
   become: yes
   var_file:
   - /var/expense/credintials-mysql.yaml
+  ask_vault_password: yes
   roles:
     - mysql
