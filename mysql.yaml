@@ -1,4 +1,4 @@
-- name: configure mysql server
+- name: configure mysql server # mysql.yaml
   hosts: mysql
   become: yes
   vars_files:
